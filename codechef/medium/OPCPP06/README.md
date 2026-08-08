@@ -50,7 +50,7 @@ int main() {
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-08T19:07:02.187Z  
+**Submitted:** 2026-08-08T19:07:23.321Z  
 
 ```cpp
 #include<bits/stdc++.h>
