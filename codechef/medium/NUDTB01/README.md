@@ -42,7 +42,7 @@ Sample Output 101 70 102 60 103 90 104 81 105 80
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-15T17:57:07.843Z  
+**Submitted:** 2026-08-15T17:57:45.553Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
