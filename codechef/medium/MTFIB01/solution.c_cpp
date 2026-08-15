@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+
+namespace CSE {
+    class Student {
+        
+    public:
+        int rollNo;
+        void show() {
+            cout << rollNo << " ";
+        }
+    };
+}
+
+namespace ECE {
+    class Student {
+        
+    public:
+        int rollNo;
+
+        void show() {
+            cout << rollNo << " ";
+        }
+    };
+}
+
+int main() {
+    
+    CSE::Student s1;
+    ECE::Student s2;
+    
+    cin >> s1.rollNo >> s2.rollNo;
+
+    s1.show();
+    s2.show();
+
+    return 0;
+}
