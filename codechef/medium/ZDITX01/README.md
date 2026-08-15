@@ -25,7 +25,7 @@ Example Input: 101 202 Output: 101 202
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-15T16:52:55.281Z  
+**Submitted:** 2026-08-15T16:53:11.382Z  
 
 ```c_cpp
 #include <iostream>
