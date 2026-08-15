@@ -25,7 +25,7 @@ Example Input: 101 202 Output: 101 202
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-15T16:53:11.382Z  
+**Submitted:** 2026-08-15T16:55:00.825Z  
 
 ```c_cpp
 #include <iostream>
@@ -33,9 +33,9 @@ using namespace std;
 
 namespace CSE {
     class Student {
-        int rollNo=101;
+        
     public:
-
+        int rollNo;
         void show() {
             cout << rollNo << " ";
         }
@@ -44,8 +44,9 @@ namespace CSE {
 
 namespace ECE {
     class Student {
-        int rollNo=202;
+        
     public:
+        int rollNo;
 
         void show() {
             cout << rollNo << " ";
@@ -57,6 +58,8 @@ int main() {
     
     CSE::Student s1;
     ECE::Student s2;
+    
+    cin >> s1.rollNo >> s2.rollNo;
 
     s1.show();
     s2.show();
