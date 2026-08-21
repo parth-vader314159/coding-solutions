@@ -1,29 +1,27 @@
 #include <iostream>
 using namespace std;
 
-class Student {
+class Car {
 public:
-    string name;
-    int age;
+    string carName;
 
-    Student(string name,int age){
-      this->name = name;
-      this->age = age;
+    // Parameterized constructor
+    Car(string carName){
+      this->carName = carName;
     }
 
-    void display(){
-        cout<<name<<endl;
-        cout<<age<<endl;
+    // Copy Constructor
+    Car(Car &c){
+      carName = c.carName;
     }
 };
 
-
 int main() {
-    string s; 
-    int a;
-    cin>>s>>a;
-    Student obj(s,a);
-    obj.display();
+    Car originalCar("Beat"); // Parameterized constructor called here
+    cout<<originalCar.carName<<endl;
+
+    Car copiedCar(originalCar); // Copy constructor called here
+    cout<<copiedCar.carName<<endl;
 
     return 0;
 }
