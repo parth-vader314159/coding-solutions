@@ -28,7 +28,7 @@ Run the code to verify it works fine.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-21T09:37:02.399Z  
+**Submitted:** 2026-08-21T09:38:55.899Z  
 
 ```c_cpp
 #include <iostream>
