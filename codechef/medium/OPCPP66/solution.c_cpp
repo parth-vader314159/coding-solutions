@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+class Product {
+    public:
+    string name;
+    int price;
+
+    void display(){
+        cout<<"Name - "<<name<<endl;
+        cout<<"Price - "<<price<<endl;
+    }
+};
+
+int main() {
+    Product obj;
+    cin>>obj.name>>obj.price;
+
+    obj.display();
+
+    return 0;
+}
