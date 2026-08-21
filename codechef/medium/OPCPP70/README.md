@@ -13,7 +13,7 @@ Which of the following are the possible sizes of a class having only integer att
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-21T09:19:11.781Z  
+**Submitted:** 2026-08-21T09:19:17.616Z  
 
 ```cpp
 #include <iostream>
